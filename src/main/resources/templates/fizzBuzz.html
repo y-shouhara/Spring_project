@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>02FizzBuzz課題</title>
+</head>
+<body>
+	<h1>FizzBuzz</h1>
+	<ul th:each="item : ${fizzBuzzList}">
+		<li th:text="${item}"></li>
+	</ul>
+	
+</body>
+</html>
